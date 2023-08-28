@@ -16,3 +16,9 @@ echo "Hello, $PERSON"
 echo "What is your name?"
 read PERSON
 echo "Hello, $PERSON"
+#!/bin/sh
+
+for TOKEN in $*
+do
+   echo $TOKEN
+done
